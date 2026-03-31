@@ -50,8 +50,8 @@ export default function Navbar({
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 bg-white transition-shadow duration-300 ${
-          scrolled ? 'shadow-md' : ''
+        className={`fixed top-0 left-0 right-0 z-50 bg-white transition-all duration-300 ${
+          scrolled ? 'shadow-md' : 'shadow-sm'
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -62,19 +62,20 @@ export default function Navbar({
                 alt="DFW Tire Wholesale logo"
                 width={160}
                 height={48}
+                quality={90}
                 className="h-11 w-auto"
                 priority
               />
             </Link>
 
-            <div className="hidden lg:flex items-center gap-10">
+            <div className="hidden lg:flex items-center gap-8">
               {navLinks.map((link) => {
                 const isActive = pathname === link.href
                 return (
                   <Link
                     key={link.href}
                     href={link.href}
-                    className={`relative text-[15px] font-medium tracking-wide uppercase transition-colors ${
+                    className={`relative font-body text-sm font-semibold tracking-wide uppercase transition-colors ${
                       isActive ? 'text-brand-red' : 'text-heading hover:text-brand-red'
                     }`}
                   >
@@ -87,8 +88,8 @@ export default function Navbar({
               })}
             </div>
 
-            <div className="hidden lg:flex items-center gap-5">
-              <div className="flex text-xs font-bold tracking-wider">
+            <div className="hidden lg:flex items-center gap-4">
+              <div className="flex text-xs font-bold font-body tracking-wider">
                 <button
                   onClick={() => switchLocale('en')}
                   className={`px-3 py-1.5 border transition-colors ${
@@ -113,7 +114,7 @@ export default function Navbar({
 
               <a
                 href="tel:8176337500"
-                className="inline-flex items-center gap-2 bg-brand-red text-white px-5 py-2.5 text-sm font-bold tracking-wide hover:bg-red-800 transition-colors"
+                className="inline-flex items-center gap-2 bg-brand-red text-white px-5 py-2.5 text-sm font-bold font-body tracking-wide hover:bg-red-800 transition-colors rounded-sm"
               >
                 <Phone className="w-4 h-4" />
                 (817) 633-7500
@@ -135,7 +136,6 @@ export default function Navbar({
         </div>
       </nav>
 
-      {/* Mobile Menu — rendered OUTSIDE nav, conditional rendering, inline styles */}
       {mobileOpen && (
         <div
           style={{
@@ -166,6 +166,7 @@ export default function Navbar({
                 alt="DFW Tire Wholesale logo"
                 width={140}
                 height={42}
+                quality={90}
                 style={{ height: '40px', width: 'auto' }}
               />
             </Link>
@@ -185,7 +186,7 @@ export default function Navbar({
               flexDirection: 'column',
               justifyContent: 'center',
               padding: '0 32px',
-              gap: '8px',
+              gap: '4px',
             }}
           >
             {navLinks.map((link) => (
@@ -194,12 +195,14 @@ export default function Navbar({
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
                 style={{
-                  fontSize: '28px',
-                  fontWeight: 700,
+                  fontSize: '32px',
+                  fontWeight: 400,
+                  fontFamily: 'var(--font-heading)',
+                  textTransform: 'uppercase' as const,
+                  letterSpacing: '0.05em',
                   color: pathname === link.href ? '#CC0000' : '#1a1a1a',
                   textDecoration: 'none',
-                  padding: '12px 0',
-                  letterSpacing: '-0.02em',
+                  padding: '10px 0',
                 }}
               >
                 {link.label}
@@ -253,6 +256,7 @@ export default function Navbar({
                 fontSize: '18px',
                 fontWeight: 700,
                 textDecoration: 'none',
+                borderRadius: '2px',
               }}
             >
               <Phone style={{ width: '20px', height: '20px' }} />

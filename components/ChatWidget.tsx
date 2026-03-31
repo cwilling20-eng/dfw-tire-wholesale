@@ -82,37 +82,34 @@ export default function ChatWidget({
 
   return (
     <>
-      {/* Floating Button */}
       {!open && (
         <button
           onClick={() => setOpen(true)}
-          className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-brand-red flex items-center justify-center shadow-lg hover:shadow-xl hover:bg-red-800 transition-all"
+          className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-brand-red rounded-sm flex items-center justify-center shadow-lg hover:shadow-xl hover:bg-red-800 transition-all"
           aria-label="Open chat"
         >
           <MessageCircle className="w-6 h-6 text-white" />
         </button>
       )}
 
-      {/* Chat Panel */}
       {open && (
-        <div className="fixed bottom-0 right-0 sm:bottom-6 sm:right-6 z-50 w-full sm:w-[380px] h-[100dvh] sm:h-[520px] bg-white sm:shadow-2xl flex flex-col overflow-hidden border border-border">
-          {/* Header */}
-          <div className="bg-heading text-white px-5 py-4 flex items-center justify-between flex-shrink-0">
-            <h3 className="font-bold text-sm tracking-wide">{dict.chat.title}</h3>
+        <div className="fixed bottom-0 right-0 sm:bottom-6 sm:right-6 z-50 w-full sm:w-[380px] h-[100dvh] sm:h-[520px] bg-white sm:shadow-2xl flex flex-col overflow-hidden rounded-sm border border-border">
+          {/* Header — RED */}
+          <div className="bg-brand-red text-white px-5 py-4 flex items-center justify-between flex-shrink-0">
+            <h3 className="font-body font-bold text-sm tracking-wide">{dict.chat.title}</h3>
             <button
               onClick={() => setOpen(false)}
-              className="p-1 hover:bg-white/10 transition-colors"
+              className="p-1 hover:bg-white/20 rounded-sm transition-colors"
               aria-label="Close chat"
             >
               <X className="w-5 h-5" />
             </button>
           </div>
 
-          {/* Messages */}
           <div className="flex-1 overflow-y-auto p-4 space-y-3">
             {messages.length === 0 && (
               <div className="space-y-2 pt-2">
-                <p className="text-muted text-sm mb-4">
+                <p className="font-body text-muted text-sm mb-4">
                   {locale === 'es'
                     ? '¡Hola! ¿En qué podemos ayudarle?'
                     : 'Hi there! How can we help you?'}
@@ -121,7 +118,7 @@ export default function ChatWidget({
                   <button
                     key={i}
                     onClick={() => sendMessage(starter)}
-                    className="block w-full text-left text-sm border border-border hover:border-brand-red hover:text-brand-red px-4 py-2.5 transition-colors text-heading"
+                    className="block w-full text-left font-body text-sm border border-border hover:border-brand-red hover:text-brand-red px-4 py-2.5 rounded-sm transition-colors text-heading"
                   >
                     {starter}
                   </button>
@@ -136,7 +133,7 @@ export default function ChatWidget({
                 }`}
               >
                 <div
-                  className={`max-w-[80%] px-4 py-2.5 text-sm leading-relaxed ${
+                  className={`max-w-[80%] px-4 py-2.5 font-body text-sm leading-relaxed rounded-sm ${
                     msg.role === 'user'
                       ? 'bg-brand-red text-white'
                       : 'bg-bg-alt text-heading'
@@ -148,7 +145,7 @@ export default function ChatWidget({
             ))}
             {loading && messages[messages.length - 1]?.role !== 'assistant' && (
               <div className="flex justify-start">
-                <div className="bg-bg-alt px-4 py-3">
+                <div className="bg-bg-alt px-4 py-3 rounded-sm">
                   <div className="flex gap-1">
                     <span className="w-1.5 h-1.5 bg-muted rounded-full animate-bounce" />
                     <span className="w-1.5 h-1.5 bg-muted rounded-full animate-bounce [animation-delay:0.1s]" />
@@ -160,7 +157,6 @@ export default function ChatWidget({
             <div ref={messagesEndRef} />
           </div>
 
-          {/* Input */}
           <form
             onSubmit={(e) => {
               e.preventDefault()
@@ -173,13 +169,13 @@ export default function ChatWidget({
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder={dict.chat.placeholder}
-              className="flex-1 px-4 py-2.5 bg-bg-alt text-heading text-sm outline-none focus:ring-2 focus:ring-brand-red/20 transition-shadow"
+              className="flex-1 px-4 py-2.5 bg-bg-alt text-heading font-body text-sm outline-none focus:ring-2 focus:ring-brand-red/20 rounded-sm transition-shadow"
               disabled={loading}
             />
             <button
               type="submit"
               disabled={!input.trim() || loading}
-              className="bg-brand-red text-white p-2.5 hover:bg-red-800 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+              className="bg-brand-red text-white p-2.5 rounded-sm hover:bg-red-800 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
               aria-label="Send message"
             >
               <Send className="w-4 h-4" />

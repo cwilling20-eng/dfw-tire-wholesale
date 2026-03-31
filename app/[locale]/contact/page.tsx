@@ -38,28 +38,24 @@ export default async function ContactPage({ params }: Props) {
 
   return (
     <>
-      {/* Hero — warehouse photo */}
+      {/* Hero */}
       <section className="relative h-[40vh] min-h-[300px] flex items-end overflow-hidden">
-        <Image
-          src="/images/warehouse-racks.jpg"
-          alt="DFW Tire Wholesale warehouse"
-          fill
-          className="object-cover"
-          priority
-          sizes="100vw"
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url('/images/storefront.jpg')` }}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/15" />
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 pb-10 md:pb-14 pt-32">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight">
+          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl uppercase tracking-wide text-white">
             {dict.contactPage.heading}
           </h1>
         </div>
       </section>
 
       {/* Contact Content */}
-      <section className="py-20 md:py-28 px-6 sm:px-8 lg:px-12">
+      <section className="py-16 md:py-24 px-6 sm:px-8 lg:px-12">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-12 lg:gap-20">
+          <div className="grid grid-cols-1 lg:grid-cols-[45%_1fr] gap-12 lg:gap-16">
             {/* Left: Contact Info */}
             <div>
               <Image
@@ -67,13 +63,14 @@ export default async function ContactPage({ params }: Props) {
                 alt="DFW Tire Wholesale logo"
                 width={200}
                 height={60}
+                quality={90}
                 className="h-14 w-auto mb-10"
               />
 
-              {/* Phone — most prominent */}
+              {/* Phone — HUGE and prominent */}
               <a
                 href="tel:8176337500"
-                className="block text-4xl md:text-5xl font-extrabold text-brand-red hover:text-red-800 transition-colors tracking-tight mb-8"
+                className="block font-heading text-5xl md:text-6xl text-brand-red hover:text-red-800 transition-colors tracking-wide mb-6"
               >
                 {dict.contactPage.phone}
               </a>
@@ -83,23 +80,23 @@ export default async function ContactPage({ params }: Props) {
                 href="https://www.google.com/maps/dir/?api=1&destination=3201+Dalworth+St+Arlington+TX+76011"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-body hover:text-heading transition-colors text-lg block mb-10"
+                className="font-body text-body hover:text-heading transition-colors text-lg block mb-10"
               >
                 {dict.contactPage.address}
               </a>
 
               {/* Hours */}
               <div>
-                <p className="text-xs font-bold tracking-[0.25em] uppercase text-brand-red mb-4">
+                <p className="font-body text-xs font-bold tracking-[0.3em] uppercase text-brand-red mb-5">
                   {dict.contactPage.hoursHeading}
                 </p>
-                <div className="space-y-2.5">
-                  {dayKeys.map((day) => (
+                <div className="space-y-0">
+                  {dayKeys.map((day, i) => (
                     <div
                       key={day}
-                      className="flex justify-between items-baseline text-[15px] pb-2.5 border-b border-border"
+                      className={`flex justify-between items-baseline font-body text-[15px] py-3 border-b border-border ${i % 2 === 0 ? '' : 'bg-bg-alt/50 -mx-3 px-3'}`}
                     >
-                      <span className="font-medium text-heading">
+                      <span className="font-semibold text-heading">
                         {dict.days[day]}
                       </span>
                       <span className="text-body">
@@ -108,14 +105,14 @@ export default async function ContactPage({ params }: Props) {
                     </div>
                   ))}
                 </div>
-                <p className="text-muted text-sm italic mt-4">
+                <p className="font-body text-muted text-sm italic mt-4">
                   {dict.contactPage.note}
                 </p>
               </div>
             </div>
 
-            {/* Right: Map */}
-            <div className="overflow-hidden h-[400px] lg:h-auto min-h-[400px]">
+            {/* Right: Map — taller */}
+            <div className="overflow-hidden h-[400px] lg:h-auto min-h-[500px] rounded-sm">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.789!2d-97.1207!3d32.7298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDQzJzQ3LjMiTiA5N8KwMDcnMTQuNSJX!5e0!3m2!1sen!2sus!4v1234567890"
                 width="100%"
@@ -134,13 +131,16 @@ export default async function ContactPage({ params }: Props) {
       {/* Bottom CTA */}
       <section className="bg-heading py-20 px-6 sm:px-8">
         <div className="max-w-4xl mx-auto text-center text-white">
-          <p className="text-xl sm:text-2xl font-medium mb-8 text-white/80">
+          <h2 className="font-heading text-3xl md:text-4xl uppercase tracking-wide mb-4">
+            {locale === 'es' ? '¿Listo Para Rodar?' : 'Ready To Roll?'}
+          </h2>
+          <p className="font-body text-white/60 text-lg mb-8">
             {dict.contactPage.bottomCta}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href="tel:8176337500"
-              className="inline-flex items-center gap-2 bg-brand-red text-white px-10 py-5 text-lg font-bold hover:bg-red-800 transition-colors"
+              className="inline-flex items-center gap-2 bg-brand-red text-white px-10 py-4 font-body text-lg font-bold tracking-wide hover:bg-red-800 transition-colors rounded-sm"
             >
               <Phone className="w-5 h-5" />
               (817) 633-7500
@@ -149,7 +149,7 @@ export default async function ContactPage({ params }: Props) {
               href="https://www.google.com/maps/dir/?api=1&destination=3201+Dalworth+St+Arlington+TX+76011"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 border-2 border-white/40 text-white px-10 py-5 text-lg font-bold hover:bg-white hover:text-heading transition-all"
+              className="inline-flex items-center gap-2 border-2 border-white/40 text-white px-10 py-4 font-body text-lg font-bold tracking-wide hover:bg-white hover:text-heading transition-all rounded-sm"
             >
               <Navigation className="w-5 h-5" />
               {locale === 'es' ? 'Cómo Llegar' : 'Get Directions'}

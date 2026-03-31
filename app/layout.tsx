@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Bebas_Neue, DM_Sans } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
+const bebasNeue = Bebas_Neue({
+  weight: "400",
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-heading",
+});
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-body",
 });
 
 export const metadata: Metadata = {
@@ -18,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} antialiased`}>
-      <body className="min-h-screen flex flex-col font-sans">{children}</body>
+    <html lang="en" className={`${bebasNeue.variable} ${dmSans.variable} antialiased`}>
+      <body className="min-h-screen flex flex-col font-body">{children}</body>
     </html>
   );
 }

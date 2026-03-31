@@ -7,10 +7,13 @@
   --color-heading: #1a1a1a;
   --color-body: #4a4a4a;
   --color-muted: #6c757d;
-  --color-bg-alt: #F8F9FA;
+  --color-bg-alt: #F5F5F3;
   --color-bg-card: #F1F3F5;
-  --color-border: #E9ECEF;
-  --font-sans: "Inter", system-ui, sans-serif;
+  --color-bg-dark: #252525;
+  --color-border: #E5E5E3;
+  --color-gold: #FFD700;
+  --font-heading: var(--font-heading), sans-serif;
+  --font-body: var(--font-body), system-ui, sans-serif;
 }
 
 html {
@@ -20,5 +23,16 @@ html {
 body {
   background: #ffffff;
   color: var(--color-body);
-  font-family: var(--font-sans);
+  font-family: var(--font-body);
+}
+
+/* Scroll reveal animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
 }

@@ -32,9 +32,9 @@ export default async function HomePage({ params }: Props) {
   return (
     <>
       <Hero dict={dict} />
-      <ValueProps dict={dict} />
+      <ValueProps dict={dict} locale={locale as Locale} />
       <ParallaxSection dict={dict} />
-      <ReviewsShowcase dict={dict} />
+      <ReviewsShowcase dict={dict} locale={locale as Locale} />
       <CTABanner dict={dict} />
     </>
   )
