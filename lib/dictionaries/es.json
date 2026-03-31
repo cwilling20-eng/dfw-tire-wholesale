@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "home": {
+      "title": "DFW Tire Wholesale | Llantas Usadas Arlington TX | Mejores Precios en DFW",
+      "description": "Llantas usadas y nuevas de calidad a los mejores precios en DFW. Servicio honesto, instalación rápida y una gran selección. Visítenos en Dalworth St en Arlington, TX."
+    },
+    "services": {
+      "title": "Nuestros Servicios | DFW Tire Wholesale | Llantas, Alineación, Cambio de Aceite Arlington TX",
+      "description": "Llantas usadas, nuevas, instalación, balanceo, alineación, kits de elevación, cambios de aceite, reparación de ponchazos y precios de flotilla en DFW Tire Wholesale en Arlington, TX."
+    },
+    "about": {
+      "title": "Acerca de Nosotros | DFW Tire Wholesale | Tienda de Llantas Local Arlington TX",
+      "description": "Conozca DFW Tire Wholesale — una tienda de llantas local en Dalworth St en Arlington, TX. Honestos, rápidos, asequibles. Conozca a nuestro equipo: Mike, Yousef y Joseph."
+    },
+    "contact": {
+      "title": "Contáctenos | DFW Tire Wholesale | (817) 633-7500 | Arlington TX",
+      "description": "Comuníquese con DFW Tire Wholesale. Llame al (817) 633-7500, visítenos en 3201 Dalworth St, Arlington TX 76011. Abierto Lun–Vie 8–6, Sáb 8–4."
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "headline": "La Tienda de Llantas Más Confiable de DFW",
+    "subheadline": "Llantas de calidad a precios inmejorables. Servicio honesto desde el primer día.",
+    "callNow": "Llame Ahora — (817) 633-7500",
+    "getDirections": "Cómo Llegar",
+    "googleRating": "4.4 ★ — 75+ Reseñas en Google"
+  },
+  "valueProps": {
+    "heading": "¿Por Qué DFW Tire Wholesale?",
+    "items": [
+      {
+        "title": "Servicio Honesto",
+        "description": "Nunca le venderemos lo que no necesita. Nuestro equipo revisa cada llanta y le da la verdad."
+      },
+      {
+        "title": "Los Mejores Precios en DFW",
+        "description": "Precios de mayoreo en llantas usadas y nuevas de calidad. ¿Para qué pagar más en las cadenas?"
+      },
+      {
+        "title": "Servicio Rápido",
+        "description": "Rápido y eficiente. Nuestro equipo experimentado lo pone de vuelta en el camino."
+      },
+      {
+        "title": "Gran Selección",
+        "description": "Todos los tamaños, todas las marcas principales. Si no lo tenemos, lo encontramos."
+      }
+    ]
+  },
+  "parallax": {
+    "tagline": "Responsive • Reliable • Reasonable",
+    "subtitle": "Sirviendo al Metroplex de DFW desde Arlington, TX"
+  },
+  "reviews": {
+    "heading": "Lo Que Dicen Nuestros Clientes",
+    "items": [
+      {
+        "name": "Roy El Hachi",
+        "text": "DFW Tire Shop siempre lo hace bien. Tercera vez aquí y siempre me voy contento. Altamente recomendado para el trabajo de su auto."
+      },
+      {
+        "name": "Yrayyub",
+        "text": "Yousef fue extremadamente servicial y honesto. Discount Tire dijo que necesitaba 3 llantas — Yousef revisó y dijo que solo necesitaba 1. ¡No puedo recomendarlos lo suficiente!"
+      },
+      {
+        "name": "Michael Tirado",
+        "text": "Uno de los mejores talleres del metroplex. Los chicos de DFW Tire son rápidos, responsivos, honestos y harán el trabajo a buen precio."
+      },
+      {
+        "name": "Chris Mck",
+        "text": "Excelente servicio, rápido, y probablemente los mejores precios que he visto. Sin duda los mejores en todo. ¡Regresaré!"
+      },
+      {
+        "name": "Rusha",
+        "text": "Excelentes llantas, servicio rápido y fácil, y el precio fue muy razonable. ¡Recomiendo a cualquiera que necesite llantas que pase por aquí!"
+      },
+      {
+        "name": "Katey C.",
+        "text": "¡Grandes chicos para trabajar! Pusimos llantas en nuestra camioneta y SUV. Gran trabajo de balanceo y todo a un excelente precio."
+      }
+    ]
+  },
+  "ctaBanner": {
+    "heading": "¿Listo Para Llantas Nuevas? ¡Llámenos Hoy!",
+    "address": "3201 Dalworth St, Arlington, TX 76011"
+  },
+  "servicesPage": {
+    "heading": "Nuestros Servicios",
+    "subheading": "Todo lo que necesita para seguir rodando — a precios que tienen sentido.",
+    "bottomCta": "¿Necesita ayuda eligiendo las llantas correctas? Llámenos — con gusto le ayudamos.",
+    "items": [
+      {
+        "title": "Llantas Usadas",
+        "description": "Llantas usadas inspeccionadas de calidad en todos los tamaños y marcas. Cada llanta es seleccionada a mano por profundidad de banda y condición."
+      },
+      {
+        "title": "Llantas Nuevas",
+        "description": "Llantas nuevas a precios de mayoreo. Marcas top sin el sobreprecio del retail."
+      },
+      {
+        "title": "Instalación de Llantas",
+        "description": "Montaje profesional en cualquier vehículo — autos, camionetas, SUVs. Rápido y bien hecho a la primera."
+      },
+      {
+        "title": "Balanceo de Llantas",
+        "description": "Balanceo de precisión para un viaje suave y sin vibraciones. Incluido con instalación o disponible por separado."
+      },
+      {
+        "title": "Alineación de Ruedas",
+        "description": "Mantenga su vehículo en línea recta y sus llantas con desgaste parejo. Alineación de precisión para todas las marcas y modelos."
+      },
+      {
+        "title": "Kits de Elevación",
+        "description": "Instalación de kits de elevación para camionetas y SUVs. Obtenga la altura y el despeje que desea, instalado por profesionales."
+      },
+      {
+        "title": "Cambios de Aceite",
+        "description": "Cambios de aceite estándar, semi-sintético y totalmente sintético. Servicio rápido mientras espera."
+      },
+      {
+        "title": "Reparación de Ponchazos",
+        "description": "Reparación rápida y confiable de llantas ponchadas para que vuelva al camino. Sin necesidad de cita."
+      },
+      {
+        "title": "Flotillas y Mayoreo",
+        "description": "Precios especiales para negocios, flotillas y compradores al mayoreo. Llame para discutir sus necesidades."
+      }
+    ]
+  },
+  "aboutPage": {
+    "heading": "Acerca de DFW Tire Wholesale",
+    "story": "Ubicados en Dalworth Street en el corazón de Arlington, DFW Tire Wholesale ha sido la fuente preferida del Metroplex de DFW para llantas de calidad a precios honestos. No somos una gran cadena — somos un taller local y familiar donde lo saludarán por su nombre y lo tratarán con respeto. Nuestra filosofía es simple: Responsivos, Confiables, Razonables. Creemos que cada conductor merece llantas seguras y confiables sin vaciar su billetera. Por eso nuestro equipo inspecciona a mano cada llanta y nunca presiona una venta que no necesita.",
+    "teamHeading": "Conozca al Equipo",
+    "team": [
+      {
+        "name": "Mike",
+        "description": "El hombre de confianza. Los clientes aman a Mike por su trabajo rápido y consejos honestos. Si necesita que se haga bien, pregunte por Mike."
+      },
+      {
+        "name": "Yousef",
+        "description": "El experto en llantas. El conocimiento de Yousef no tiene igual — se asegurará de que obtenga exactamente lo que necesita, nada más."
+      },
+      {
+        "name": "Joseph",
+        "description": "El amigable. Joseph cuida a amigos y familia — y en DFW Tire, cada cliente es ambos."
+      }
+    ],
+    "threeRsHeading": "Las 3 R's",
+    "threeRs": [
+      {
+        "title": "Responsivos",
+        "description": "Estamos aquí cuando nos necesita. Servicio rápido, sin vueltas."
+      },
+      {
+        "title": "Confiables",
+        "description": "Llantas de calidad y trabajo honesto con el que puede contar, siempre."
+      },
+      {
+        "title": "Razonables",
+        "description": "Los mejores precios en DFW. Punto."
+      }
+    ],
+    "reviewsCta": "No solo tome nuestra palabra — vea lo que más de 75 clientes tienen que decir en Google.",
+    "reviewsButton": "Ver Nuestras Reseñas en Google"
+  },
+  "contactPage": {
+    "heading": "Contáctenos",
+    "address": "3201 Dalworth St, Arlington, TX 76011",
+    "phone": "(817) 633-7500",
+    "hoursHeading": "Horario de Atención",
+    "hours": {
+      "monday": "8:00 AM – 6:00 PM",
+      "tuesday": "8:00 AM – 6:00 PM",
+      "wednesday": "8:00 AM – 6:00 PM",
+      "thursday": "8:00 AM – 6:00 PM",
+      "friday": "8:00 AM – 6:00 PM",
+      "saturday": "8:00 AM – 4:00 PM",
+      "sunday": "Cerrado"
+    },
+    "note": "Generalmente estamos ocupados — ¡se recomienda llamar antes!",
+    "bottomCta": "¿Listo para rodar? Llámenos o pase por aquí — no se necesita cita para la mayoría de los servicios."
+  },
+  "footer": {
+    "tagline": "Responsive • Reliable • Reasonable",
+    "rights": "© 2025 DFW Tire Wholesale. Todos los derechos reservados."
+  },
+  "chat": {
+    "title": "Chatea con DFW Tire",
+    "placeholder": "Escribe un mensaje...",
+    "starters": [
+      "¿Qué tamaños tienen?",
+      "¿Cuál es su horario?",
+      "¿Hacen instalación?",
+      "¿Cómo son sus precios?"
+    ]
+  },
+  "days": {
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo"
+  }
+}

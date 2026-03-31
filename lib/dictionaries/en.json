@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "home": {
+      "title": "DFW Tire Wholesale | Used Tires Arlington TX | Best Prices in DFW",
+      "description": "Quality used and new tires at the best prices in DFW. Honest service, fast installation, and a huge selection. Visit us on Dalworth St in Arlington, TX."
+    },
+    "services": {
+      "title": "Our Services | DFW Tire Wholesale | Tires, Alignment, Oil Change Arlington TX",
+      "description": "Used tires, new tires, installation, balancing, wheel alignment, lift kits, oil changes, flat repair, and fleet pricing at DFW Tire Wholesale in Arlington, TX."
+    },
+    "about": {
+      "title": "About Us | DFW Tire Wholesale | Local Tire Shop Arlington TX",
+      "description": "Learn about DFW Tire Wholesale — a locally owned tire shop on Dalworth St in Arlington, TX. Honest, fast, affordable. Meet our team: Mike, Yousef, and Joseph."
+    },
+    "contact": {
+      "title": "Contact Us | DFW Tire Wholesale | (817) 633-7500 | Arlington TX",
+      "description": "Get in touch with DFW Tire Wholesale. Call (817) 633-7500, visit us at 3201 Dalworth St, Arlington TX 76011. Open Mon–Fri 8–6, Sat 8–4."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "DFW's Most Trusted Tire Shop",
+    "subheadline": "Quality tires at unbeatable prices. Honest service since day one.",
+    "callNow": "Call Now — (817) 633-7500",
+    "getDirections": "Get Directions",
+    "googleRating": "4.4 ★ — 75+ Google Reviews"
+  },
+  "valueProps": {
+    "heading": "Why DFW Tire Wholesale?",
+    "items": [
+      {
+        "title": "Honest Service",
+        "description": "We'll never sell you what you don't need. Our team checks every tire and gives you the straight truth."
+      },
+      {
+        "title": "Best Prices in DFW",
+        "description": "Wholesale pricing on quality used and new tires. Why pay more at the chains?"
+      },
+      {
+        "title": "Fast Service",
+        "description": "In and out. Our experienced crew gets you back on the road fast."
+      },
+      {
+        "title": "Huge Selection",
+        "description": "All sizes, all major brands. If we don't have it, we'll find it."
+      }
+    ]
+  },
+  "parallax": {
+    "tagline": "Responsive • Reliable • Reasonable",
+    "subtitle": "Serving the DFW Metroplex from Arlington, TX"
+  },
+  "reviews": {
+    "heading": "What Our Customers Say",
+    "items": [
+      {
+        "name": "Roy El Hachi",
+        "text": "DFW Tire Shop always does it right. Third time here and always left happy. Highly recommend for your car work."
+      },
+      {
+        "name": "Yrayyub",
+        "text": "Yousef was extremely helpful and honest. Discount Tire said I needed 3 tires — Yousef checked and said I only needed 1. I cannot recommend them enough!"
+      },
+      {
+        "name": "Michael Tirado",
+        "text": "One of the best shops in the metroplex. The guys at DFW Tire are fast, responsive, honest, and will get the job done at a good price."
+      },
+      {
+        "name": "Chris Mck",
+        "text": "Awesome service, fast, and probably the best prices I've ever seen. Hands down best all around. I'll be back!"
+      },
+      {
+        "name": "Rusha",
+        "text": "Great tires, quick and easy service, and the price was really reasonable. I highly recommend anyone needing tires to stop by!"
+      },
+      {
+        "name": "Katey C.",
+        "text": "Great guys to work with! We had tires put on both our truck and SUV. Great job balancing and all at a great price."
+      }
+    ]
+  },
+  "ctaBanner": {
+    "heading": "Ready for New Tires? Call Us Today!",
+    "address": "3201 Dalworth St, Arlington, TX 76011"
+  },
+  "servicesPage": {
+    "heading": "Our Services",
+    "subheading": "Everything you need to keep rolling — at prices that make sense.",
+    "bottomCta": "Need help choosing the right tires? Give us a call — we're happy to help.",
+    "items": [
+      {
+        "title": "Used Tires",
+        "description": "Quality inspected used tires in every size and brand. Every tire is hand-selected for tread depth and condition."
+      },
+      {
+        "title": "New Tires",
+        "description": "Brand new tires at wholesale prices. Top brands without the retail markup."
+      },
+      {
+        "title": "Tire Installation",
+        "description": "Professional mounting on any vehicle — cars, trucks, SUVs. Fast and done right the first time."
+      },
+      {
+        "title": "Tire Balancing",
+        "description": "Precision balancing for a smooth, vibration-free ride. Included with installation or available standalone."
+      },
+      {
+        "title": "Wheel Alignment",
+        "description": "Keep your vehicle tracking straight and your tires wearing evenly. Precision alignment for all makes and models."
+      },
+      {
+        "title": "Lift Kits",
+        "description": "Lift kit installation for trucks and SUVs. Get the stance and clearance you want, installed by pros."
+      },
+      {
+        "title": "Oil Changes",
+        "description": "Standard, semi-synthetic, and full synthetic oil changes. Quick service while you wait."
+      },
+      {
+        "title": "Flat Repair",
+        "description": "Quick, reliable flat tire repair to get you back on the road. No appointment necessary."
+      },
+      {
+        "title": "Fleet & Wholesale",
+        "description": "Special pricing for businesses, fleets, and bulk buyers. Call to discuss your needs."
+      }
+    ]
+  },
+  "aboutPage": {
+    "heading": "About DFW Tire Wholesale",
+    "story": "Located on Dalworth Street in the heart of Arlington, DFW Tire Wholesale has been the DFW Metroplex's go-to source for quality tires at honest prices. We're not a big chain — we're a local, family-run shop where you'll be greeted by name and treated with respect. Our philosophy is simple: Responsive, Reliable, Reasonable. We believe every driver deserves safe, dependable tires without breaking the bank. That's why our team hand-inspects every tire and never pushes a sale you don't need.",
+    "teamHeading": "Meet the Team",
+    "team": [
+      {
+        "name": "Mike",
+        "description": "The go-to guy. Customers love Mike for his fast work and honest advice. If you need it done right, ask for Mike."
+      },
+      {
+        "name": "Yousef",
+        "description": "The tire expert. Yousef's product knowledge is unmatched — he'll make sure you get exactly what you need, nothing more."
+      },
+      {
+        "name": "Joseph",
+        "description": "The people person. Joseph takes care of friends and family — and at DFW Tire, every customer is both."
+      }
+    ],
+    "threeRsHeading": "The 3 R's",
+    "threeRs": [
+      {
+        "title": "Responsive",
+        "description": "We're here when you need us. Fast service, no runaround."
+      },
+      {
+        "title": "Reliable",
+        "description": "Quality tires and honest work you can count on, every time."
+      },
+      {
+        "title": "Reasonable",
+        "description": "The best prices in DFW. Period."
+      }
+    ],
+    "reviewsCta": "Don't just take our word for it — see what 75+ customers have to say on Google.",
+    "reviewsButton": "See Our Google Reviews"
+  },
+  "contactPage": {
+    "heading": "Contact Us",
+    "address": "3201 Dalworth St, Arlington, TX 76011",
+    "phone": "(817) 633-7500",
+    "hoursHeading": "Business Hours",
+    "hours": {
+      "monday": "8:00 AM – 6:00 PM",
+      "tuesday": "8:00 AM – 6:00 PM",
+      "wednesday": "8:00 AM – 6:00 PM",
+      "thursday": "8:00 AM – 6:00 PM",
+      "friday": "8:00 AM – 6:00 PM",
+      "saturday": "8:00 AM – 4:00 PM",
+      "sunday": "Closed"
+    },
+    "note": "We're usually busy — a call ahead is recommended!",
+    "bottomCta": "Ready to roll? Call us or stop by — no appointment needed for most services."
+  },
+  "footer": {
+    "tagline": "Responsive • Reliable • Reasonable",
+    "rights": "© 2025 DFW Tire Wholesale. All rights reserved."
+  },
+  "chat": {
+    "title": "Chat with DFW Tire",
+    "placeholder": "Type a message...",
+    "starters": [
+      "What sizes do you carry?",
+      "What are your hours?",
+      "Do you do installation?",
+      "How are your prices?"
+    ]
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  }
+}
